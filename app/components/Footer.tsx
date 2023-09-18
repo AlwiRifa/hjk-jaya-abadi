@@ -28,8 +28,8 @@ const Footer = () => {
     <div className="relative bottom-0 w-full bg-zinc-800 pt-16 pb-40">
       <Container>
         <div className='flex gap-56'>
-          <div className="flex flex-col gap-2">
-            <Image width='250' height='100' src='/images/logo.png' alt='logo' />
+          <div className="flex flex-col text-start gap-2">
+            <img className='h-12' src='/images/logo.png' alt='logo' />
             <div className='flex flex-col gap-2  translate-x-2'>
               <ContactCard text='Purwakarta, Indonesia' icon={MdLocationPin} />
               <ContactCard text='+62 812-8252-6995' icon={BsWhatsapp} />

@@ -37,8 +37,8 @@ const Testimoni = () => {
     <div className='py-12 bg-zinc-100'>
       <Container>
         <div className='p-6 flex flex-col items-center justify-center text-center gap-4'>
-          <h1 className='text-4xl font-semibold tracking-tight'>Testimoni</h1>
-          <p className='max-w-4xl text-zinc-400'>
+          <h1 className='text-2xl sm:text-4xl font-semibold tracking-tight'>Testimoni</h1>
+          <p className='text-sm sm:text-base max-w-4xl text-zinc-400'>
             Testimoni langsung dari klien kami yang telah menggunakan jasa dari layanan Rumah Struktur Engineering. Temukan bagaimana kami membantu mereka dalam merancang dan menghitung struktur bangunan yang aman, kuat, dan efisien
           </p>
         </div>
